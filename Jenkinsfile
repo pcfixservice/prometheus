@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository...'
-                git 'https://github.com/pcfixservice/prometheus.git'
+                git branch: 'main', url: 'https://github.com/pcfixservice/prometheus.git'
             }
         }
 
