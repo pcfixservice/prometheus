@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Sample Dashboard",
+    "panels": [
+      {
+        "type": "text",
+        "title": "Welcome",
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 5 },
+        "options": { "content": "Hello! Prometheus + Grafana is running.", "mode": "markdown" }
+      }
+    ]
+  }
+}
+
